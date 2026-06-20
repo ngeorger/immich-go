@@ -3,31 +3,31 @@
 # See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Default owners for everything in the repo
-* @simulot
+* @ngeorger
 
 # GitHub Actions Workflows - CRITICAL SECURITY
 # Changes to workflow files must be reviewed by maintainers to prevent
 # malicious code from accessing secrets or compromising the CI/CD pipeline
-/.github/workflows/* @simulot
+/.github/workflows/* @ngeorger
 
 # CI/CD Configuration Files
-/.github/CODEOWNERS @simulot
-/.github/*.yml @simulot
-/.github/*.md @simulot
+/.github/CODEOWNERS @ngeorger
+/.github/*.yml @ngeorger
+/.github/*.md @ngeorger
 
 # Security-sensitive files
-/go.mod @simulot
-/go.sum @simulot
+/go.mod @ngeorger
+/go.sum @ngeorger
 
 # Release management
-/scripts/publish-prerelease.sh @simulot
-/scripts/generate-release-notes.sh @simulot
-/scripts/check-immich-api.sh @simulot
+/scripts/publish-prerelease.sh @ngeorger
+/scripts/generate-release-notes.sh @ngeorger
+/scripts/check-immich-api.sh @ngeorger
 
 # Documentation - maintainers review for technical accuracy
-/docs/* @simulot
-/README.md @simulot
-/CONTRIBUTING.md @simulot
+/docs/* @ngeorger
+/README.md @ngeorger
+/CONTRIBUTING.md @ngeorger
 
 # E2E test infrastructure (contains server setup)
-/internal/e2e/testdata/immich-server/* @simulot
+/internal/e2e/testdata/immich-server/* @ngeorger
