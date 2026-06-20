@@ -5,7 +5,7 @@ import (
 	"time"
 
 	etool "github.com/barasher/go-exiftool"
-	"github.com/simulot/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets"
 )
 
 type ExifTool struct {

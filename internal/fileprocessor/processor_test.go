@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/simulot/immich-go/internal/assettracker"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/assettracker"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fshelper"
 )
 
 // mockFS is a simple mock filesystem for testing

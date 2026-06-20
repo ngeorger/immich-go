@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simulot/immich-go/immich"
+	"github.com/ngeorger/immich-go/immich"
 	"github.com/spf13/pflag"
 )
 

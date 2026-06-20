@@ -2,7 +2,7 @@
 
 ## You can now support my work on `Immich-go`:
 
-- [Github Sponsor page](https://github.com/sponsors/simulot)
+- [Github Sponsor page](https://github.com/sponsors/ngeorger)
 - [paypal donor page](https://www.paypal.com/donate/?hosted_button_id=VGU2SQE88T2T4)
 
 ## Release v0.23.0-alpha6 🏗️ Work in progress 🏗️ 
@@ -33,11 +33,11 @@ A metadata file is created withe same name as the main file, but with the extens
 
 
 ### Fixes
-* [#533](https://github.com/simulot/immich-go/issues/533) RAW file metadata
+* [#533](https://github.com/ngeorger/immich-go/issues/533) RAW file metadata
 The efforts for determining the capture date from the file name are useless.
 Now the file date is provided to Immich as if the file was dropped on the immich's page.
 The `--capture-date-method` is now set to `NONE` by default.
-* [[#534](https://github.com/simulot/immich-go/issues/534)] Errors on windows
+* [[#534](https://github.com/ngeorger/immich-go/issues/534)] Errors on windows
 
 
 ## Release 0.23.0-alpha5 🏗️ Work in progress 🏗️ 
@@ -306,7 +306,7 @@ Global Flags:
 ## Release 0.22.1
 
 ### Fixes:
-- [#509](https://github.com/simulot/immich-go/issues/509)      
+- [#509](https://github.com/ngeorger/immich-go/issues/509)      
 
 
 ## Release 0.22.0
@@ -323,26 +323,26 @@ Thanks to @Alex1607 for their contribution
 Use the option `-auto-archive=FALSE` to disable this feature.
 
 ### What's Changed
-* fix Takeout zip is unsupported file type #357 by @simulot in https://github.com/simulot/immich-go/pull/415
-* docs: fix typos in readme by @maybeanerd in https://github.com/simulot/immich-go/pull/421
-* Program errors out due to no ping API response despite API responding by @simulot in https://github.com/simulot/immich-go/pull/431
-* remove "GetJobs" call from API traces by @simulot in https://github.com/simulot/immich-go/pull/442
-* Add support for -use-full-path-album-name to be able to use the full path to the file as album name/title by @giejay in https://github.com/simulot/immich-go/pull/444
-* Documentation-update by @simulot in https://github.com/simulot/immich-go/pull/446
-* Add new AutoArchive option by @Alex1607 in https://github.com/simulot/immich-go/pull/450
-* Update README.md, google-takeout.md, and motivation.md by @aaronjrodrigues in https://github.com/simulot/immich-go/pull/454
+* fix Takeout zip is unsupported file type #357 by @ngeorger in https://github.com/ngeorger/immich-go/pull/415
+* docs: fix typos in readme by @maybeanerd in https://github.com/ngeorger/immich-go/pull/421
+* Program errors out due to no ping API response despite API responding by @ngeorger in https://github.com/ngeorger/immich-go/pull/431
+* remove "GetJobs" call from API traces by @ngeorger in https://github.com/ngeorger/immich-go/pull/442
+* Add support for -use-full-path-album-name to be able to use the full path to the file as album name/title by @giejay in https://github.com/ngeorger/immich-go/pull/444
+* Documentation-update by @ngeorger in https://github.com/ngeorger/immich-go/pull/446
+* Add new AutoArchive option by @Alex1607 in https://github.com/ngeorger/immich-go/pull/450
+* Update README.md, google-takeout.md, and motivation.md by @aaronjrodrigues in https://github.com/ngeorger/immich-go/pull/454
 
 ### New Contributors
-* @maybeanerd made their first contribution in https://github.com/simulot/immich-go/pull/421
-* @giejay made their first contribution in https://github.com/simulot/immich-go/pull/444
-* @Alex1607 made their first contribution in https://github.com/simulot/immich-go/pull/450
+* @maybeanerd made their first contribution in https://github.com/ngeorger/immich-go/pull/421
+* @giejay made their first contribution in https://github.com/ngeorger/immich-go/pull/444
+* @Alex1607 made their first contribution in https://github.com/ngeorger/immich-go/pull/450
 
-**Full Changelog**: https://github.com/simulot/immich-go/compare/0.21.0...0.22.0
+**Full Changelog**: https://github.com/ngeorger/immich-go/compare/0.21.0...0.22.0
 
 ## Release 0.21.1
 
 ### Fixes:
-- [#405](https://github.com/simulot/immich-go/issues/405) motion photo files with MP~2 extension marked unsupported and skipped
+- [#405](https://github.com/ngeorger/immich-go/issues/405) motion photo files with MP~2 extension marked unsupported and skipped
 - Live photos not correctly counted
 
 ## Release 0.21.0
@@ -361,22 +361,22 @@ Each image in a takeout is supposed to come with A JSON file giving the date of 
 When asking another takeout isn't an option, it's possible to force the upload of photos with no JSON. Use the option `-upload-when-missing-JSON` 
 
 ### The stack function is disabled
-The stack function need to be improved [#399](https://github.com/simulot/immich-go/issues/399), [#345](https://github.com/simulot/immich-go/issues/345), [#235](https://github.com/simulot/immich-go/issues/235)
+The stack function need to be improved [#399](https://github.com/ngeorger/immich-go/issues/399), [#345](https://github.com/ngeorger/immich-go/issues/345), [#235](https://github.com/ngeorger/immich-go/issues/235)
 Meanwhile, it is disabled by default. You can enable it using the option `-create-stacks=TRUE`.
 
 
 
 
 ### fixes:
-- [#376](https://github.com/simulot/immich-go/issues/376) errors when uploading are disturbing the the % of the progression
+- [#376](https://github.com/ngeorger/immich-go/issues/376) errors when uploading are disturbing the the % of the progression
 - files with same path and name, but in different part of the takeout file set was forgotten in duplicate counters
 - iPhone's Live photos recognition when the name is duplicated: ex IMG_2710(1).MP4 and IMG_2710(1).HEIC
 - Missing a file when a directory contain several files with the same name, but of a different type. Ex: IMG_0170.HEIC,  IMG_0170.JPG
 - Live videos attached to duplicated photos are now counted as duplicate as well, making the final report more relevant
-- [#402](https://github.com/simulot/immich-go/issues/402) Wrong album assignment for images with the same name
-- [#390](https://github.com/simulot/immich-go/issues/390) Question: report shows way less images uploaded than scanned
-- [#376](https://github.com/simulot/immich-go/issues/376) errors when uploading are disturbing the the % of the progression
-- [#401](https://github.com/simulot/immich-go/issues/401) Add an option to import images/movies even if there is no JSON file in the takeout
+- [#402](https://github.com/ngeorger/immich-go/issues/402) Wrong album assignment for images with the same name
+- [#390](https://github.com/ngeorger/immich-go/issues/390) Question: report shows way less images uploaded than scanned
+- [#376](https://github.com/ngeorger/immich-go/issues/376) errors when uploading are disturbing the the % of the progression
+- [#401](https://github.com/ngeorger/immich-go/issues/401) Add an option to import images/movies even if there is no JSON file in the takeout
 
 
 ## Release 0.20.1
@@ -385,7 +385,7 @@ Meanwhile, it is disabled by default. You can enable it using the option `-creat
 - add git action to build and release
 
 ### fixes:
-- [#380](https://github.com/simulot/immich-go/issues/380) not all GP duplicates are detected correctly, counters are wrong
+- [#380](https://github.com/ngeorger/immich-go/issues/380) not all GP duplicates are detected correctly, counters are wrong
 
 ## Release 0.20
 
@@ -409,23 +409,23 @@ immich-go -sever=xxxxx -key=yyyyy upload -exclude-files=backup/ -exclude-files=d
 ```
 
 ### fixes:
-- [#365](https://github.com/simulot/immich-go/issues/365) missing associated metadata file isn't correct
-- [#299](https://github.com/simulot/immich-go/issues/299) Real time GUI log only shows 4 lines
-- [#370](https://github.com/simulot/immich-go/issues/370) ui: clearly mention when the upload in completed
-- [#232](https://github.com/simulot/immich-go/issues/232) Exclude based on filename / glob
-- [#357](https://github.com/simulot/immich-go/issues/357) clarify error message when a zip file is corrupted
+- [#365](https://github.com/ngeorger/immich-go/issues/365) missing associated metadata file isn't correct
+- [#299](https://github.com/ngeorger/immich-go/issues/299) Real time GUI log only shows 4 lines
+- [#370](https://github.com/ngeorger/immich-go/issues/370) ui: clearly mention when the upload in completed
+- [#232](https://github.com/ngeorger/immich-go/issues/232) Exclude based on filename / glob
+- [#357](https://github.com/ngeorger/immich-go/issues/357) clarify error message when a zip file is corrupted
 
 ## Release 0.19.1
 
 ### fix: UploadAsset
-- [#359](https://github.com/simulot/immich-go/issues/359)Unexpected Discrepancy in 'Server has same quality' Metric After Re-uploading Images
-- [#343](https://github.com/simulot/immich-go/issues/343)Getting stuck at 75% - server assets to delete
+- [#359](https://github.com/ngeorger/immich-go/issues/359)Unexpected Discrepancy in 'Server has same quality' Metric After Re-uploading Images
+- [#343](https://github.com/ngeorger/immich-go/issues/343)Getting stuck at 75% - server assets to delete
 
 Fix the UploadAsset call causing some unexpected counts
 
 ## Release 0.19
 
-### feat [#297](https://github.com/simulot/immich-go/issues/297) Derive Immich album description and location from Google photos JSON "enrichments"
+### feat [#297](https://github.com/ngeorger/immich-go/issues/297) Derive Immich album description and location from Google photos JSON "enrichments"
 
 Description, place and additional texts of Google Photos are now imported by `immich-go` in immich albums.
 ![screenshot](/docs/v0.19.Album%20description.png)
@@ -452,7 +452,7 @@ Use the option `-api-trace` to log all immich calls in a file. The API key is re
 -- response body end --
 ```
 
-### fix: [#355](https://github.com/simulot/immich-go/issues/355) update albums of duplicated photos
+### fix: [#355](https://github.com/ngeorger/immich-go/issues/355) update albums of duplicated photos
 Given the takeout 1 with
 - photo1 in Album A
 - photo2
@@ -479,25 +479,25 @@ Photos are added the albums immediately after their upload to prevent a timeout 
 
 ## Release 0.18.2
 
-- fix [#347](https://github.com/simulot/immich-go/issues/347) Denied access to admin only route: /api/job
+- fix [#347](https://github.com/ngeorger/immich-go/issues/347) Denied access to admin only route: /api/job
 
 ## Release 0.18.1
 
-- fix [#336](https://github.com/simulot/immich-go/issues/336)  Processing stops with "context canceled" all the time 
+- fix [#336](https://github.com/ngeorger/immich-go/issues/336)  Processing stops with "context canceled" all the time 
 
 ## Release 0.18
 ![screen](/docs/render1719696528932.gif)
 
-### feat: [#322](https://github.com/simulot/immich-go/issues/322) Add -version to get the immich version
+### feat: [#322](https://github.com/ngeorger/immich-go/issues/322) Add -version to get the immich version
 The option `-version` return the version of the executable. 
 
-### feat: [#289](https://github.com/simulot/immich-go/issues/289) Server's activity graph
+### feat: [#289](https://github.com/ngeorger/immich-go/issues/289) Server's activity graph
 The UI mode now show the current activity of the immich server. After 10 seconds of zero activity, the program stops
 
 ### feat: generate a CSV files with the fate of each file
 Use the option `-debug-counters` to generate a CSV beside the log file
 
-### feat: [#308](https://github.com/simulot/immich-go/issues/308) Immich-go gets photos date from filename or path
+### feat: [#308](https://github.com/ngeorger/immich-go/issues/308) Immich-go gets photos date from filename or path
 Immich-go tries to determine the date of capture with the file name, or the file path.
 
 Ex:
@@ -512,29 +512,29 @@ Ex:
 > Thanks to @erkexzcx for his contribution.
 
 
-### fix: [#326, #303](https://github.com/simulot/immich-go/pull/326) Live Photo / Motion pictures 
+### fix: [#326, #303](https://github.com/ngeorger/immich-go/pull/326) Live Photo / Motion pictures 
 
 Since a recent release of Immich, the live photos and motion picture were seen as a picture and a small movie.
 The code has been refactored to be sure that the movie part is uploaded before the photo, and attached to the photo.
 
-### fix: [#304](https://github.com/simulot/immich-go/issues/304)  Error when uploading images with a wild card without path .JPG 
+### fix: [#304](https://github.com/ngeorger/immich-go/issues/304)  Error when uploading images with a wild card without path .JPG 
 Immich-go accepts "*.jpg" as parameter.
 
 
-### fix: [#317](https://github.com/simulot/immich-go/issues/317) Explicit message when the call to /api/server-info/ping fails
+### fix: [#317](https://github.com/ngeorger/immich-go/issues/317) Explicit message when the call to /api/server-info/ping fails
 The message is now explicit:
 ```
 The ping API end point doesn't respond at this address: http://localhost:2283/api/server-info/ping
 ```
 
 
-### fix: [#235,#240](https://github.com/simulot/immich-go/issues/235) Stack detection issue
+### fix: [#235,#240](https://github.com/ngeorger/immich-go/issues/235) Stack detection issue
 > Thanks to @matteolomba for his contribution
 
 ### fix: Path of temporary files
 Temporary files are created in the system's temporary folder.
 
-### fix: [#311](https://github.com/simulot/immich-go/issues/311) Readme spelling
+### fix: [#311](https://github.com/ngeorger/immich-go/issues/311) Readme spelling
 
 ### fix: report unsupported files as unsupported  
 
@@ -554,34 +554,34 @@ Temporary files are created in the system's temporary folder.
 ### ⚠️ Immich has changed its API
 This version of immich-go is compatible with immich v.1.106 and later. Use immich-go version 0.16.0 with older immich servers.
 
-### feature: [[#284](https://github.com/simulot/immich-go/issues/284)] Be ready for the next immich version
+### feature: [[#284](https://github.com/ngeorger/immich-go/issues/284)] Be ready for the next immich version
 See https://github.com/immich-app/immich/pull/9831 and https://github.com/immich-app/immich/pull/9667 for details
 
 ### fix: log upload errors with error level error in JSON logs
 
-### fix: [[#287](https://github.com/simulot/immich-go/issues/287)] Prevent the Upload of photos that are trashed (Google Photos)
+### fix: [[#287](https://github.com/ngeorger/immich-go/issues/287)] Prevent the Upload of photos that are trashed (Google Photos)
 Trashed server's assets are excluded from the duplicate detection before uploading the same asset. 
 
 
 ## Release 0.16.0
 
-### feature: [[#261](https://github.com/simulot/immich-go/issues/261)] Fallback to no-gui mode when the UI can't be created
+### feature: [[#261](https://github.com/ngeorger/immich-go/issues/261)] Fallback to no-gui mode when the UI can't be created
 When the terminal can't handle the UI mode, the program falls back to non gui mode automatically
 
 ### feature: The log can be written with the JSON format (JSONL)
 Use the `-log-json` option to enable JSON logging (JSONL format). This allows using [./jq](https://jqlang.github.io/jq/)  to explore large logs.
 
-### feature: [[#277](https://github.com/simulot/immich-go/issues/277)] Adjust client side timeouts 
+### feature: [[#277](https://github.com/ngeorger/immich-go/issues/277)] Adjust client side timeouts 
 The immich client timeout is set with the option `-client-timeout=duration`. 
  The duration is a decimal numbers with a unit suffix, such as "300ms", "1.5m" or "45m". Valid time units are "ms", "s", "m", "h".   
 
-### fix: [[#270](https://github.com/simulot/immich-go/issues/270)]  `Missing associated metadata file` counter is not updated after the performance improvement
+### fix: [[#270](https://github.com/ngeorger/immich-go/issues/270)]  `Missing associated metadata file` counter is not updated after the performance improvement
 The counter `missing associated metadata` is broken since 0.15.0
 
-### fix: [[#266](https://github.com/simulot/immich-go/issues/266)] Better handling of archive name with wildcards that matches with no file
+### fix: [[#266](https://github.com/ngeorger/immich-go/issues/266)] Better handling of archive name with wildcards that matches with no file
 When the file name pattern returns no files, a message is printed, and the program ends.
 
-### fix: [[#273](https://github.com/simulot/immich-go/issues/273)] Missing upload files
+### fix: [[#273](https://github.com/ngeorger/immich-go/issues/273)] Missing upload files
 Any error is counted as upload error, and reported in the log file.
 
 ### fix: Error handling during multitasking
@@ -595,15 +595,15 @@ There were previously counted as discarded files.
 
 ### fix: The name of the sidecar file is correctly written in the log
 
-### fix: [[#272](https://github.com/simulot/immich-go/issues/272)] Wrong release downloaded for 0.15.0
+### fix: [[#272](https://github.com/ngeorger/immich-go/issues/272)] Wrong release downloaded for 0.15.0
 Oops!
 
 ## Release 0.15.0
 
-### fix [#255](https://github.com/simulot/immich-go/issues/255) Last percents of google puzzle solving are very slow when processing very large takeout archive
+### fix [#255](https://github.com/ngeorger/immich-go/issues/255) Last percents of google puzzle solving are very slow when processing very large takeout archive
 The google puzzle solving is now much faster for large takeout archives.
 
-### fix [#215](https://github.com/simulot/immich-go/issues/215) Use XDG_CONFIG_HOME for storing config
+### fix [#215](https://github.com/ngeorger/immich-go/issues/215) Use XDG_CONFIG_HOME for storing config
 The configuration file that contains the server and the key is now stored by default in following folder:
 - Linux `$HOME/.config/immich-go/immich-go.json`
 - Windows `%AppData%\immich-go\immich-go.json`
@@ -615,13 +615,13 @@ The default log file is:
 - Windows `%LocalAppData%\immich-go\immich-go_YYYY-MM-DD_HH-MI-SS.log`
 - Apple `$HOME/Library/Caches/immich-go/immich-go_YYYY-MM-DD_HH-MI-SS.log`
 
-### Feat: [[#249](https://github.com/simulot/immich-go/issues/249)] Fix Display the path of log file name
+### Feat: [[#249](https://github.com/ngeorger/immich-go/issues/249)] Fix Display the path of log file name
 The log file name is printed when the program exits.
 
 
 ## Release 0.14.1
 
-### fix [#246](https://github.com/simulot/immich-go/issues/246) Google Takeout 403 Forbidden on non admin user
+### fix [#246](https://github.com/ngeorger/immich-go/issues/246) Google Takeout 403 Forbidden on non admin user
 Uses the endpoint /api/asset/statistics to get the number of user's assets.
 
 ## Release 0.14.0 "A better UI"
@@ -705,7 +705,7 @@ I chose the same license as the immich project license to release immich-go.
 
 ## Release 0.13.2
 
-### Fix [[#211](https://github.com/simulot/immich-go/issues/211)]  immich-go appears to retain/cache an API key
+### Fix [[#211](https://github.com/ngeorger/immich-go/issues/211)]  immich-go appears to retain/cache an API key
 Fix the logic for retaining the credential: 
 
 When given, the credentials are saved into the configuration file.
@@ -713,14 +713,14 @@ When not given, the credential are read from the configuration file if possible.
  
 ## Release 0.13.0
 
-### Improvement: [#189](https://github.com/simulot/immich-go/issues/189) Use a configuration file to store server's address and its API key  
+### Improvement: [#189](https://github.com/ngeorger/immich-go/issues/189) Use a configuration file to store server's address and its API key  
 
 The server URL and the API key are now stored into a configuration file (by default $HOME/.immich-go/immich-go.json).
 If not provided in the CLI argument, those values are read from the configuration file.
 
 The option `-use-configuration=path/to/config/file` let you specify the configuration file. 
 
-### fix: [#193](https://github.com/simulot/immich-go/issues/193) Flags not being passed to subcommands #193
+### fix: [#193](https://github.com/ngeorger/immich-go/issues/193) Flags not being passed to subcommands #193
 
 
 ### Improvement: Better handling of wild cards in path 
@@ -830,7 +830,7 @@ Example: to deactivate a flag that is on by default:
 
 ## Release 0.9.5
 
-### fix: panic: runtime error: invalid memory address or nil pointer dereference at github.com/simulot/immich-go/cmdupload/upload.go:255
+### fix: panic: runtime error: invalid memory address or nil pointer dereference at github.com/ngeorger/immich-go/cmdupload/upload.go:255
 
 ## Release 0.9.4
 

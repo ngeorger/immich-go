@@ -13,12 +13,12 @@ import (
 
 	"github.com/kr/pretty"
 	"github.com/psanford/memfs"
-	"github.com/simulot/immich-go/app"
-	cliflags "github.com/simulot/immich-go/internal/cliFlags"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/filenames"
-	"github.com/simulot/immich-go/internal/filetypes"
-	"github.com/simulot/immich-go/internal/namematcher"
+	"github.com/ngeorger/immich-go/app"
+	cliflags "github.com/ngeorger/immich-go/internal/cliFlags"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/filenames"
+	"github.com/ngeorger/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/namematcher"
 )
 
 type inMemFS struct {

@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/simulot/immich-go/internal/assets"
-	cliflags "github.com/simulot/immich-go/internal/cliFlags"
-	"github.com/simulot/immich-go/internal/gen"
+	"github.com/ngeorger/immich-go/internal/assets"
+	cliflags "github.com/ngeorger/immich-go/internal/cliFlags"
+	"github.com/ngeorger/immich-go/internal/gen"
 	"golang.org/x/sync/errgroup"
 )
 

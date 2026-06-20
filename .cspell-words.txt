@@ -10,7 +10,7 @@ takeout
 tailscale
 
 # GitHub usernames (add your maintainers)
-simulot
+ngeorger
 
 # Technical terms
 api

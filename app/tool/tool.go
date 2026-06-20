@@ -3,7 +3,7 @@ package tool
 import (
 	"context"
 
-	"github.com/simulot/immich-go/app"
+	"github.com/ngeorger/immich-go/app"
 	"github.com/spf13/cobra"
 )
 

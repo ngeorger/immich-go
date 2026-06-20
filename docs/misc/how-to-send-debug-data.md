@@ -8,7 +8,7 @@ This size of the list is much smaller than the full archive and contains enough 
 
 This list reveals only the files's name and size, and the albums' name. 
 
-If you agree, you can share it with me via a DM on discord @simulot.
+If you agree, you can share it with me via a DM on discord @ngeorger.
 
 
 ## Get the file list from a zip takeout under linux / macos / wsl
@@ -58,7 +58,7 @@ powershell -ExecutionPolicy Bypass -File .\ZipContents.ps1 -Path "C:\Path\To\Zip
 
 ### **Step 5: Send the ZipContents.txt file to the project team**
 1. Once the script completes, locate the output file (e.g., `ZipContents.txt`).
-2. Send the file to the project team @simulot for further analysis.
+2. Send the file to the project team @ngeorger for further analysis.
 
 ### **Step 6: Clean Up**
 1. Delete the script (`ZipContents.ps1`) if you no longer need it.

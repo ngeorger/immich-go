@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/simulot/immich-go/app/root"
-	e2eutils "github.com/simulot/immich-go/internal/e2e/e2eUtils"
-	"github.com/simulot/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/app/root"
+	e2eutils "github.com/ngeorger/immich-go/internal/e2e/e2eUtils"
+	"github.com/ngeorger/immich-go/internal/fileevent"
 )
 
 func Test_ArchiveFromGP(t *testing.T) {

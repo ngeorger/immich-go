@@ -8,8 +8,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/simulot/immich-go/cmd"
-	"github.com/simulot/immich-go/ui"
+	"github.com/ngeorger/immich-go/cmd"
+	"github.com/ngeorger/immich-go/ui"
 )
 
 func AlbumCommand(ctx context.Context, common *cmd.RootImmichFlags, args []string) error {

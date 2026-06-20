@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/simulot/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/filetypes"
 )
 
 /*

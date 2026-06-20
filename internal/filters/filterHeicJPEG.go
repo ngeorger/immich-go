@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/simulot/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets"
 )
 
 type HeicJpgFlag int

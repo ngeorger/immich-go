@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/simulot/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets"
 )
 
 type TagSimplified struct {

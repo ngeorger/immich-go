@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/simulot/immich-go/internal/assettracker"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fileprocessor"
+	"github.com/ngeorger/immich-go/internal/assettracker"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fileprocessor"
 	"github.com/spf13/cobra"
 )
 

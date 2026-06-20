@@ -20,7 +20,7 @@ func Test_readFileLine(t *testing.T) {
 		wantSize    int64
 	}{
 		{
-			name: "simulot",
+			name: "ngeorger",
 			args: args{
 				l:          "   145804  2024-05-25 22:15   Takeout/Google Photos/🇵🇹 Lisbonne ❤️ en famille 👨‍👩‍👦‍👦/😀😃😄😁😆😅😂🤣🥲☺️😊😇🙂🙃😉😌😍🥰😘😗😙😚😋😛.jpg",
 				dateFormat: "2006-01-02 15:04",

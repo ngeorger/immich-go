@@ -11,11 +11,11 @@ import (
 	"github.com/gdamore/tcell/v2"
 	"github.com/navidys/tvxwidgets"
 	"github.com/rivo/tview"
-	"github.com/simulot/immich-go/app"
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/assettracker"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fileprocessor"
+	"github.com/ngeorger/immich-go/app"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assettracker"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fileprocessor"
 	"golang.org/x/sync/errgroup"
 )
 

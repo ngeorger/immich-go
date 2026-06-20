@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/pelletier/go-toml/v2"
-	"github.com/simulot/immich-go/app/root"
-	"github.com/simulot/immich-go/internal/config"
+	"github.com/ngeorger/immich-go/app/root"
+	"github.com/ngeorger/immich-go/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"

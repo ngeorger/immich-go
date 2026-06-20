@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simulot/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets"
 )
 
 // Samsung burst file name pattern

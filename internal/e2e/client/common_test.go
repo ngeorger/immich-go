@@ -14,7 +14,7 @@ import (
 	"sync"
 	"testing"
 
-	e2eutils "github.com/simulot/immich-go/internal/e2e/e2eUtils"
+	e2eutils "github.com/ngeorger/immich-go/internal/e2e/e2eUtils"
 )
 
 // Configuration from environment variables

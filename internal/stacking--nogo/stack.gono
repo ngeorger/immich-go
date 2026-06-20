@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simulot/immich-go/internal/gen"
-	cliflags "github.com/simulot/immich-go/internal/cliFlags"
-	"github.com/simulot/immich-go/internal/metadata"
+	"github.com/ngeorger/immich-go/internal/gen"
+	cliflags "github.com/ngeorger/immich-go/internal/cliFlags"
+	"github.com/ngeorger/immich-go/internal/metadata"
 )
 
 type Key struct {

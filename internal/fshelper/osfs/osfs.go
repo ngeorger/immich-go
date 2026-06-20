@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/simulot/immich-go/internal/fshelper"
-	"github.com/simulot/immich-go/internal/fshelper/debugfiles"
+	"github.com/ngeorger/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/fshelper/debugfiles"
 )
 
 /*

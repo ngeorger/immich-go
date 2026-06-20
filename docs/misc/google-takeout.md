@@ -49,7 +49,7 @@ but one JSON
 Note that "edited" name is localized.
 
 ## Images are duplicated with no apparent logic
-Example from the  [#380](https://github.com/simulot/immich-go/issues/380)
+Example from the  [#380](https://github.com/ngeorger/immich-go/issues/380)
 ```sh
 ~$ for f in *.zip; do echo "$f: "; unzip -l $f | grep 130917ad28385b5a; done
 takeout-20240712T112341Z-001.zip:
@@ -112,6 +112,6 @@ Here is the list of translations for the "-edited" suffix in the requested langu
 
 
 # What if I have problems with a takeout archive?
-Please open an issue with details. You can share your files using Discord DM `@simulot`.
+Please open an issue with details. You can share your files using Discord DM `@ngeorger`.
 I'll check if I can improve the program.
 Sometimes a manual import is the best option.

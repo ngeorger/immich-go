@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/simulot/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/filetypes"
 )
 
 func matchFastTrack(jsonName string, fileName string, _ filetypes.SupportedMedia) bool {

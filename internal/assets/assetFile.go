@@ -1,9 +1,9 @@
 package assets
 
 import (
-	"github.com/simulot/immich-go/internal/fshelper/cachereader"
-	"github.com/simulot/immich-go/internal/fshelper/debugfiles"
-	"github.com/simulot/immich-go/internal/fshelper/osfs"
+	"github.com/ngeorger/immich-go/internal/fshelper/cachereader"
+	"github.com/ngeorger/immich-go/internal/fshelper/debugfiles"
+	"github.com/ngeorger/immich-go/internal/fshelper/osfs"
 )
 
 // func (a *Asset) DeviceAssetID() string {

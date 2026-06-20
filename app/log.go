@@ -15,9 +15,9 @@ import (
 
 	"github.com/phsym/console-slog"
 	slogmulti "github.com/samber/slog-multi"
-	"github.com/simulot/immich-go/immich/httptrace"
-	"github.com/simulot/immich-go/internal/fshelper/debugfiles"
-	"github.com/simulot/immich-go/internal/loghelper"
+	"github.com/ngeorger/immich-go/immich/httptrace"
+	"github.com/ngeorger/immich-go/internal/fshelper/debugfiles"
+	"github.com/ngeorger/immich-go/internal/loghelper"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

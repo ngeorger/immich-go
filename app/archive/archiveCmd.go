@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 
-	"github.com/simulot/immich-go/adapters/folder"
-	"github.com/simulot/immich-go/adapters/fromimmich"
-	gp "github.com/simulot/immich-go/adapters/googlePhotos"
-	"github.com/simulot/immich-go/app"
-	"github.com/simulot/immich-go/internal/assettracker"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fileprocessor"
+	"github.com/ngeorger/immich-go/adapters/folder"
+	"github.com/ngeorger/immich-go/adapters/fromimmich"
+	gp "github.com/ngeorger/immich-go/adapters/googlePhotos"
+	"github.com/ngeorger/immich-go/app"
+	"github.com/ngeorger/immich-go/internal/assettracker"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fileprocessor"
 	"github.com/spf13/cobra"
 )
 

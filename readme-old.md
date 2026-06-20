@@ -7,7 +7,7 @@
 
 ## Support the project `Immich-go`
 
-- [GitHub Sponsor](https://github.com/sponsors/simulot)
+- [GitHub Sponsor](https://github.com/sponsors/ngeorger)
 - [PayPal Donation](https://www.paypal.com/donate/?hosted_button_id=VGU2SQE88T2T4)
 
 
@@ -74,7 +74,7 @@
 
 ## Pre-built Binaries
 
-The easiest way to install Immich-Go is to download the pre-built binary for your system from the [GitHub releases page](https://github.com/simulot/immich-go/releases).
+The easiest way to install Immich-Go is to download the pre-built binary for your system from the [GitHub releases page](https://github.com/ngeorger/immich-go/releases).
 
 ### Supported Platforms:
 - **Operating Systems**
@@ -89,7 +89,7 @@ The easiest way to install Immich-Go is to download the pre-built binary for you
 
 ### Installation Steps
 
-1. Visit the [releases page](https://github.com/simulot/immich-go/releases/latest)
+1. Visit the [releases page](https://github.com/ngeorger/immich-go/releases/latest)
 2. Download the archive for your operating system and architecture:
    - Windows: `immich-go_Windows_x86_64.zip`
    - MacOS: `immich-go_Darwin_x86_64.tar.gz`
@@ -125,7 +125,7 @@ If pre-built binaries are not available, you can build Immich-Go from source.
 ### Build Steps
 ```bash
 # Clone the repository
-git clone https://github.com/simulot/immich-go.git
+git clone https://github.com/ngeorger/immich-go.git
 
 # Change to the project directory
 cd immich-go

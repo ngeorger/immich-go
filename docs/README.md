@@ -87,9 +87,9 @@ docs/
 
 ## 🆘 Getting Help
 
-- **Documentation Issues**: Something unclear? [Open an issue](https://github.com/simulot/immich-go/issues)
-- **Bug Reports**: Found a problem? [Report it](https://github.com/simulot/immich-go/issues)
-- **Feature Requests**: Have an idea? [Share it](https://github.com/simulot/immich-go/discussions)
+- **Documentation Issues**: Something unclear? [Open an issue](https://github.com/ngeorger/immich-go/issues)
+- **Bug Reports**: Found a problem? [Report it](https://github.com/ngeorger/immich-go/issues)
+- **Feature Requests**: Have an idea? [Share it](https://github.com/ngeorger/immich-go/discussions)
 - **Debug Information**: Need to send logs? See [how to send debug data](misc/how-to-send-debug-data.md)
 
 ## 🤝 Contributing to Documentation

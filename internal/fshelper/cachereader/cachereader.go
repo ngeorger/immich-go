@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/simulot/immich-go/internal/fshelper/debugfiles"
-	"github.com/simulot/immich-go/internal/fshelper/hash"
-	"github.com/simulot/immich-go/internal/fshelper/osfs"
-	"github.com/simulot/immich-go/internal/loghelper"
+	"github.com/ngeorger/immich-go/internal/fshelper/debugfiles"
+	"github.com/ngeorger/immich-go/internal/fshelper/hash"
+	"github.com/ngeorger/immich-go/internal/fshelper/osfs"
+	"github.com/ngeorger/immich-go/internal/loghelper"
 )
 
 // CacheReader is a reader that caches the data in a temporary file to allow multiple reads

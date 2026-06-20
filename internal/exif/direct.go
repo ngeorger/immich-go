@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/rwcarlsen/goexif/exif"
-	"github.com/simulot/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets"
 )
 
 // MetadataFromDirectRead read the file using GO package

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/filetypes"
 )
 
 type BurstFlag int

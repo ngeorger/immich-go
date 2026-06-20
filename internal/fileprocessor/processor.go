@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/simulot/immich-go/internal/assettracker"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/assettracker"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fshelper"
 )
 
 // FileProcessor coordinates AssetTracker and EventLogger to provide

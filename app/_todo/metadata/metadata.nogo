@@ -9,10 +9,10 @@ import (
 	"path"
 	"time"
 
-	"github.com/simulot/immich-go/cmd"
-	"github.com/simulot/immich-go/helpers/myflag"
-	"github.com/simulot/immich-go/immich"
-	"github.com/simulot/immich-go/immich/metadata"
+	"github.com/ngeorger/immich-go/cmd"
+	"github.com/ngeorger/immich-go/helpers/myflag"
+	"github.com/ngeorger/immich-go/immich"
+	"github.com/ngeorger/immich-go/immich/metadata"
 )
 
 type MetadataCmd struct {

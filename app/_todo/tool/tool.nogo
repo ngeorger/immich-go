@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/simulot/immich-go/cmd"
-	"github.com/simulot/immich-go/cmd/album"
+	"github.com/ngeorger/immich-go/cmd"
+	"github.com/ngeorger/immich-go/cmd/album"
 )
 
 func CommandTool(ctx context.Context, common *cmd.RootImmichFlags, args []string) error {

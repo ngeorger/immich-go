@@ -3,8 +3,8 @@ package e2eutils
 import (
 	"testing"
 
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fileprocessor"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fileprocessor"
 )
 
 func CheckResults(t *testing.T, expectedResults map[fileevent.Code]int64, forcedJSON bool, processor *fileprocessor.FileProcessor) bool {

@@ -16,7 +16,7 @@
 ## 🚀 Quick Start
 
 ### 1. Install Immich-Go
-Download the pre-built binary for your system from the [GitHub releases page](https://github.com/simulot/immich-go/releases).
+Download the pre-built binary for your system from the [GitHub releases page](https://github.com/ngeorger/immich-go/releases).
 
 ### 2. Basic Usage
 ```bash
@@ -87,7 +87,7 @@ For a detailed explanation of how each upload command works, please see the [Upl
 
 ## 💡 Support the Project
 
-- [GitHub Sponsor](https://github.com/sponsors/simulot)
+- [GitHub Sponsor](https://github.com/sponsors/ngeorger)
 - [PayPal Donation](https://www.paypal.com/donate/?hosted_button_id=VGU2SQE88T2T4)
 
 

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/simulot/immich-go/app"
-	"github.com/simulot/immich-go/app/archive"
-	"github.com/simulot/immich-go/app/stack"
-	"github.com/simulot/immich-go/app/upload"
-	"github.com/simulot/immich-go/app/version"
+	"github.com/ngeorger/immich-go/app"
+	"github.com/ngeorger/immich-go/app/archive"
+	"github.com/ngeorger/immich-go/app/stack"
+	"github.com/ngeorger/immich-go/app/upload"
+	"github.com/ngeorger/immich-go/app/version"
 	"github.com/spf13/cobra"
 )
 

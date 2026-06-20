@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/kr/pretty"
-	"github.com/simulot/immich-go/app"
-	cliflags "github.com/simulot/immich-go/internal/cliFlags"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/filetypes"
-	"github.com/simulot/immich-go/internal/filters"
-	"github.com/simulot/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/app"
+	cliflags "github.com/ngeorger/immich-go/internal/cliFlags"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/filters"
+	"github.com/ngeorger/immich-go/internal/fshelper"
 )
 
 func TestLocalAssets(t *testing.T) {

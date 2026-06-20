@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/simulot/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fileevent"
 )
 
 func (toc *TakeoutCmd) DebugFileTracker(w io.Writer) {

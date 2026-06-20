@@ -4,12 +4,12 @@ import (
 	"errors"
 	"os"
 
-	"github.com/simulot/immich-go/adapters"
-	"github.com/simulot/immich-go/adapters/folder"
-	"github.com/simulot/immich-go/internal/assettracker"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/fileprocessor"
-	"github.com/simulot/immich-go/internal/fshelper/osfs"
+	"github.com/ngeorger/immich-go/adapters"
+	"github.com/ngeorger/immich-go/adapters/folder"
+	"github.com/ngeorger/immich-go/internal/assettracker"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/fileprocessor"
+	"github.com/ngeorger/immich-go/internal/fshelper/osfs"
 	"github.com/spf13/cobra"
 )
 

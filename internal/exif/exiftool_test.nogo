@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/tzone"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/tzone"
 )
 
 func TestExifTool_ReadMetaData(t *testing.T) {

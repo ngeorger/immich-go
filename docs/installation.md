@@ -52,7 +52,7 @@ Immich-Go needs to pause Immich jobs during upload operations. Create an admin-l
 
 #### Installation Steps
 
-1. **Download**: Visit the [releases page](https://github.com/simulot/immich-go/releases/latest)
+1. **Download**: Visit the [releases page](https://github.com/ngeorger/immich-go/releases/latest)
 
 2. **Select your platform**:
    - Windows: `immich-go_Windows_x86_64.zip`
@@ -82,7 +82,7 @@ Immich-Go needs to pause Immich jobs during upload operations. Create an admin-l
 
 ```bash
 # Clone the repository
-git clone https://github.com/simulot/immich-go.git
+git clone https://github.com/ngeorger/immich-go.git
 
 # Change to project directory
 cd immich-go

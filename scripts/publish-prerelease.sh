@@ -137,6 +137,6 @@ goreleaser release --clean
 echo -e "${GREEN}✅ Prerelease published successfully!${NC}"
 echo -e "${BLUE}📋 Release details:${NC}"
 echo "  Tag: $tag"
-echo "  URL: https://github.com/simulot/immich-go/releases/tag/$tag"
+echo "  URL: https://github.com/ngeorger/immich-go/releases/tag/$tag"
 echo ""
 echo -e "${YELLOW}💡 Note: Binaries are attached to the GitHub prerelease${NC}"

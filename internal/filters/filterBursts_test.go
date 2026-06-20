@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/filenames"
-	"github.com/simulot/immich-go/internal/filetypes"
-	"github.com/simulot/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/filenames"
+	"github.com/ngeorger/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/fshelper"
 )
 
 var ic = filenames.NewInfoCollector(time.Local, filetypes.DefaultSupportedMedia)

@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	cliflags "github.com/simulot/immich-go/internal/cliFlags"
-	"github.com/simulot/immich-go/internal/config"
-	"github.com/simulot/immich-go/internal/fileprocessor"
-	"github.com/simulot/immich-go/internal/filetypes"
+	cliflags "github.com/ngeorger/immich-go/internal/cliFlags"
+	"github.com/ngeorger/immich-go/internal/config"
+	"github.com/ngeorger/immich-go/internal/fileprocessor"
+	"github.com/ngeorger/immich-go/internal/filetypes"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

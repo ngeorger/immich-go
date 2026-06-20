@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/kr/pretty"
-	"github.com/simulot/immich-go/app"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/filenames"
-	"github.com/simulot/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/app"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/filenames"
+	"github.com/ngeorger/immich-go/internal/filetypes"
 )
 
 func TestBrowse(t *testing.T) {

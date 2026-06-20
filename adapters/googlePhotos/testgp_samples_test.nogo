@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/psanford/memfs"
-	"github.com/simulot/immich-go/internal/filenames"
+	"github.com/ngeorger/immich-go/internal/filenames"
 )
 
 type inMemFS struct {

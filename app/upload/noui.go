@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/simulot/immich-go/app"
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/app"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/fileevent"
 	"golang.org/x/sync/errgroup"
 )
 

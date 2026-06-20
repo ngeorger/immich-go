@@ -3,7 +3,7 @@ package gp
 import (
 	"testing"
 
-	"github.com/simulot/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/filetypes"
 )
 
 func Test_matchers(t *testing.T) {

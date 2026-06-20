@@ -8,14 +8,14 @@ import (
 	"sync"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/simulot/immich-go/adapters"
-	"github.com/simulot/immich-go/immich"
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/assets/cache"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/filters"
-	"github.com/simulot/immich-go/internal/fshelper"
-	"github.com/simulot/immich-go/internal/worker"
+	"github.com/ngeorger/immich-go/adapters"
+	"github.com/ngeorger/immich-go/immich"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets/cache"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/filters"
+	"github.com/ngeorger/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/worker"
 )
 
 func (uc *UpCmd) saveAlbum(ctx context.Context, album assets.Album, ids []string) (assets.Album, error) {

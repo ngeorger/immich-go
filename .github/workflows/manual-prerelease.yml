@@ -173,4 +173,4 @@ jobs:
                   echo "- macOS AMD64: \`immich-go_${PRERELEASE_VERSION#v}_Darwin_x86_64.tar.gz\`" >> $GITHUB_STEP_SUMMARY
                   echo "- Windows AMD64: \`immich-go_${PRERELEASE_VERSION#v}_Windows_x86_64.zip\`" >> $GITHUB_STEP_SUMMARY
                   echo "" >> $GITHUB_STEP_SUMMARY
-                  echo "🔗 **[View Release](https://github.com/simulot/immich-go/releases/tag/$PRERELEASE_VERSION)**" >> $GITHUB_STEP_SUMMARY
+                  echo "🔗 **[View Release](https://github.com/ngeorger/immich-go/releases/tag/$PRERELEASE_VERSION)**" >> $GITHUB_STEP_SUMMARY

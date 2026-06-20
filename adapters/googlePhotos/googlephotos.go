@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/fileevent"
-	"github.com/simulot/immich-go/internal/filetypes"
-	"github.com/simulot/immich-go/internal/fshelper"
-	"github.com/simulot/immich-go/internal/gen"
-	"github.com/simulot/immich-go/internal/groups"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/fileevent"
+	"github.com/ngeorger/immich-go/internal/filetypes"
+	"github.com/ngeorger/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/gen"
+	"github.com/ngeorger/immich-go/internal/groups"
 )
 
 type fileKeyTracker struct {

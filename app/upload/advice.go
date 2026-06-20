@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/simulot/immich-go/immich"
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/gen/syncmap"
-	"github.com/simulot/immich-go/internal/gen/syncset"
+	"github.com/ngeorger/immich-go/immich"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/gen/syncmap"
+	"github.com/ngeorger/immich-go/internal/gen/syncset"
 )
 
 // - - go:generate stringer -type=AdviceCode

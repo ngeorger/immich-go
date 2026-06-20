@@ -7,7 +7,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/simulot/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/fshelper"
 )
 
 type Metadata struct {

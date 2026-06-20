@@ -17,7 +17,7 @@ import (
 
 	"github.com/disintegration/imaging"
 	"github.com/rwcarlsen/goexif/exif"
-	"github.com/simulot/immich-go/internal/worker"
+	"github.com/ngeorger/immich-go/internal/worker"
 	"gopkg.in/yaml.v3"
 )
 
@@ -111,7 +111,7 @@ func getCategoryImages(client *http.Client, category string, count int) []ImageD
 	apiURL := fmt.Sprintf("https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtype=file&cmtitle=Category:%s&cmlimit=50&format=json", url.QueryEscape(category))
 
 	req, _ := http.NewRequest("GET", apiURL, nil)
-	req.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/simulot/immich-go)")
+	req.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/ngeorger/immich-go)")
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -147,7 +147,7 @@ func getImageURL(client *http.Client, title string) *ImageData {
 	apiURL := fmt.Sprintf("https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url&titles=%s&format=json", url.QueryEscape(title))
 
 	req, _ := http.NewRequest("GET", apiURL, nil)
-	req.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/simulot/immich-go)")
+	req.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/ngeorger/immich-go)")
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -173,7 +173,7 @@ func getImageURL(client *http.Client, title string) *ImageData {
 	apiURL2 := fmt.Sprintf("https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=extmetadata&titles=%s&format=json", url.QueryEscape(title))
 
 	req2, _ := http.NewRequest("GET", apiURL2, nil)
-	req2.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/simulot/immich-go)")
+	req2.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/ngeorger/immich-go)")
 
 	resp2, err := client.Do(req2)
 	if err != nil {
@@ -201,7 +201,7 @@ func getImageURL(client *http.Client, title string) *ImageData {
 
 func downloadImage(client *http.Client, imgURL, filename, title string, metadata map[string]interface{}) error {
 	req, _ := http.NewRequest("GET", imgURL, nil)
-	req.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/simulot/immich-go)")
+	req.Header.Set("User-Agent", "ImmichGoDownloader/1.0 (https://github.com/ngeorger/immich-go)")
 
 	resp, err := client.Do(req)
 	if err != nil {

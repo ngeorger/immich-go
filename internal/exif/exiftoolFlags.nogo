@@ -1,7 +1,7 @@
 package exif
 
 import (
-	"github.com/simulot/immich-go/internal/tzone"
+	"github.com/ngeorger/immich-go/internal/tzone"
 	"github.com/spf13/cobra"
 )
 

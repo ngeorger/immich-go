@@ -3,7 +3,7 @@ package adapters
 import (
 	"context"
 
-	"github.com/simulot/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/assets"
 	"github.com/spf13/cobra"
 )
 

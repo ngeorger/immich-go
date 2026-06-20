@@ -9,10 +9,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/simulot/immich-go/internal/assets"
-	"github.com/simulot/immich-go/internal/exif/sidecars/jsonsidecar"
-	"github.com/simulot/immich-go/internal/fshelper"
-	"github.com/simulot/immich-go/internal/fshelper/debugfiles"
+	"github.com/ngeorger/immich-go/internal/assets"
+	"github.com/ngeorger/immich-go/internal/exif/sidecars/jsonsidecar"
+	"github.com/ngeorger/immich-go/internal/fshelper"
+	"github.com/ngeorger/immich-go/internal/fshelper/debugfiles"
 )
 
 // type minimalFSWriter interface {
