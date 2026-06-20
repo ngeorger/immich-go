@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/simulot/immich-go/app/root"
+	"github.com/ngeorger/immich-go/app/root"
 )
 
 // immich-go entry point
